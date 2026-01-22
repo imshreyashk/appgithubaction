@@ -28,6 +28,6 @@ jobs:
         pip install -r requirements.txt
 
   #Step 4: Run tests
-    - name: Test with pytest
+    - name: Run tests
       run: |
-        PYTHONPATH=src python -m pytest
+        pytest
