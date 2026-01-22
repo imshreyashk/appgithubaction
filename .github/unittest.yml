@@ -30,4 +30,4 @@ jobs:
   #Step 4: Run tests
     - name: Test with pytest
       run: |
-        python -m pytest
+        PYTHONPATH=src python -m pytest
